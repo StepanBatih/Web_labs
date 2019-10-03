@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "Alphabet_of_Children";
+    src: url("fonts/Alphabet_of_Children.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Essays1743";
+    font-weight: bold;
+    src: url("fonts/Essays1743.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Libertine";
+    src: url("fonts/Libertine.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Essays1743_italic";
+    font-weight: bold;
+    src: url("fonts/Essays1743_italic.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Libertine_italic";
+    src: url("fonts/Libertine_italic.woff") format("woff");
+}
+body{
+    margin-left: 194px;
+    margin-right: 194px;
+}
+h1 {
+    font-family: "Essays1743";
+    font-weight: 900;
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.1em;
+    margin-top: 71px;
+    margin-bottom: 71px;
+}
+h2 {
+    font-family: "Essays1743";
+    font-weight: 900;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 41px;
+    margin-bottom: 41px;
+}
+h3{    
+    font-family: "Essays1743";
+    text-transform: uppercase;
+    padding: 4px;
+    background: black;
+    color: white;
+    display: block;
+}
+
+p {
+    font-family: "Libertine";
+    font-size: large;
+    margin-top: 28px;
+    margin-bottom: 28px;
+    
+}
+
+a {
+    font-weight: lighter;
+    color: rgb(139, 6, 6);
+    border-bottom: 1px dotted;
+    text-decoration: none;
+}
+ol, ul {
+    font-family: "Libertine";
+    font-size: large;
+}
+.frame  {  
+    width: auto;	height: 350px; 
+    outline: 1px solid #000;
+    
+}
+
+.frame_pad{
+    padding: 20px;
+}
+
+.heart_bullet {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.f:first-letter {
+    font-family: "Alphabet_of_Children";
+    font-size: 8.2em;
+    float: left;
+    margin-right: 0.02em;
+    line-height: 0.75;
+}
+
+.copy > a {
+    
+    font-weight: lighter;
+    color: black;
+    border-bottom: 1px dotted;
+    text-decoration: none;
+}
+.center{
+    text-align: center;
+}
+
