@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+}   
+h1{
+    text-align: center;
+    color: white;
+    margin:0;
+}
+header {
+    height: 630px;
+    background: url("karna_bg.jpg")  no-repeat top /cover;
+    margin:0;
+}
+
+h4{
+    margin: 0;
+    padding: 25px;
+}
+
+
+.logo{
+    margin-left: 50px;
+}
+.header_container{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.menu > li  {
+    float: left;
+    margin-left: 50px;
+    display:block;
+}
+li > a {
+    color: white;
+    text-decoration: none;
+}
+.submenu {
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    width: 190px;
+    padding: 0;
+    margin-top: 1px;
+    box-sizing: border-box;
+    background: rgba(0, 0,0, 0.5)
+}
+.submenu li{
+    border: 1px solid;
+    font-size: 15px;
+    padding: 15px 7px 15px;
+    
+}
+  .menu > li:hover .submenu {
+    display: block;
+    transition: .4s;
+  }
+.biography {
+    background: url("bio_bg.jpg");
+    height: 300px;
+    border-top: dotted 10px orange;
+    border-bottom: dotted 11px orangered;
+}
+
+.biography p {
+    text-align: center;
+    color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+}
+.albums{
+    display: flex;
+    text-align: center;
+    color: white;
+    height: 400px;
+    background: url("album_bg.jpg");
+}
+.name_albums > li {
+    float: left;
+    display: block;
+    margin-left: 120px;
+    text-align: center;
+}
+.album_item{
+    margin-left: 80px ;
+}
+.footer {
+    background-color:gray ;
+    text-align: center;
+}
